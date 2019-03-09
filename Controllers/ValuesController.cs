@@ -22,7 +22,8 @@ namespace CoreConfig.Controllers
         public ActionResult<IEnumerable<string>> Get()
         {
             string val = _config.GetValue<string>("Passwords:BobsPassword");
-            return new string[] { val, "value2" };
+            string secretVal = _config.GetValue<string>("SuperSecret");
+            return new string[] { val, secretVal };
         }
 
         // GET api/values/5
