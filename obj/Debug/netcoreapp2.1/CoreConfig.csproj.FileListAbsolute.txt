@@ -1,0 +1,15 @@
+C:\workspaces\CoreConfig\bin\Debug\netcoreapp2.1\CoreConfig.deps.json
+C:\workspaces\CoreConfig\bin\Debug\netcoreapp2.1\CoreConfig.runtimeconfig.json
+C:\workspaces\CoreConfig\bin\Debug\netcoreapp2.1\CoreConfig.runtimeconfig.dev.json
+C:\workspaces\CoreConfig\bin\Debug\netcoreapp2.1\CoreConfig.dll
+C:\workspaces\CoreConfig\bin\Debug\netcoreapp2.1\CoreConfig.pdb
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.csprojAssemblyReference.cache
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.csproj.CoreCompileInputs.cache
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.RazorAssemblyInfo.cache
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.RazorAssemblyInfo.cs
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.AssemblyInfoInputs.cache
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.AssemblyInfo.cs
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.RazorTargetAssemblyInfo.cache
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.dll
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\CoreConfig.pdb
+C:\workspaces\CoreConfig\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
