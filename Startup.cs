@@ -34,6 +34,7 @@ namespace CoreConfig
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
             else
             {

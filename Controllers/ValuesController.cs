@@ -11,17 +11,18 @@ namespace CoreConfig.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        
+        IConfiguration _config;
         public ValuesController(IConfiguration config)
         {
-    
+            _config = config;
         }
 
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            string val = _config.GetValue<string>("Passwords:BobsPassword");
+            return new string[] { val, "value2" };
         }
 
         // GET api/values/5

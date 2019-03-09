@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0411d67e-2a15-4793-b0d6-286ebb39573e/resourceGroups/appsvc_rg_windows_centralus/providers/Microsoft.Web/sites/contrivedexCoreConfig",
+    "appService.deploySubpath": ""
+}
