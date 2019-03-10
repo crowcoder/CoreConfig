@@ -23,7 +23,7 @@ namespace CoreConfig.Controllers
         {
             string CmdLineConfigValue =_config.GetValue<string>("cmdlinearg") ?? "No Cmd Line Value Set";
 
-            return new string[] { CmdLineConfigValue, "value2", "value red", "value blue" };
+            return new string[] { CmdLineConfigValue, "Test Change", "value red", "value blue" };
         }
     }
 }
