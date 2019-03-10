@@ -58,6 +58,7 @@ namespace CoreConfig
             {
                 builder.UseContentRoot(Directory.GetCurrentDirectory());
             }
+            
             if (args != null)
             {
                 builder.UseConfiguration(new ConfigurationBuilder().AddCommandLine(args).Build());

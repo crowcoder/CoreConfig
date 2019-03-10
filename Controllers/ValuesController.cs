@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace CoreConfig.Controllers
 {
@@ -10,11 +11,19 @@ namespace CoreConfig.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        IConfiguration _config;
+        public ValuesController(IConfiguration config)
+        {
+            _config = config;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2", "value red", "value blue" };
+            string CmdLineConfigValue =_config.GetValue<string>("cmdlinearg") ?? "No Cmd Line Value Set";
+
+            return new string[] { CmdLineConfigValue, "value2", "value red", "value blue" };
         }
     }
 }
