@@ -23,10 +23,10 @@ namespace CoreConfig
         {
             CreateWebHostBuilder(args).Build().Run();
 
-            ManualCreateDefaultBuilder(args)
-            .UseStartup<Startup>()
-            .Build()
-            .Run();
+            // ManualCreateDefaultBuilder(args)
+            // .UseStartup<Startup>()
+            // .Build()
+            // .Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
